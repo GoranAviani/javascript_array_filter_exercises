@@ -26,6 +26,13 @@ console.log(peopleWhoBelongToTheMovieClub([
         <p>{fiveAndGreaterOnly([3, 6, 8, 2])}</p>
         <p>{evensOnly([3, 6, 8, 2])}</p>
         <p>{fiveCharactersOrFewerOnly(["dog", "wolf", "by", "family", "eaten", "camping"])}</p>
+        <p>{peopleWhoBelongToTheMovieClub([
+    { name: "Angelina Jolie", member: true },
+    { name: "Eric Jones", member: false },
+    { name: "Paris Hilton", member: false },
+    { name: "Kayne West", member: false },
+    { name: "Bob Ziroll", member: true }
+])}</p>
     </div>
   );
 }
