@@ -15,6 +15,7 @@ function App() {
      APP
         <p>{fiveAndGreaterOnly([3, 6, 8, 2])}</p>
         <p>{evensOnly([3, 6, 8, 2])}</p>
+        <p>{fiveCharactersOrFewerOnly(["dog", "wolf", "by", "family", "eaten", "camping"])}</p>
     </div>
   );
 }
