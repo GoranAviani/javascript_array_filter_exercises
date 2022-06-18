@@ -1,6 +1,4 @@
 const peopleWhoBelongToTheMovieClub = (arr) => {
-
-    const result = arr.filter(x => x.member === true)
-    return result
+    return arr.filter(x => x.member === true)
 }
 export default peopleWhoBelongToTheMovieClub;
