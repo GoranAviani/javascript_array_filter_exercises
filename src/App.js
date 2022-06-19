@@ -29,6 +29,14 @@ function App() {
     { name: "Bob Ziroll", age: 100 }
 ]));
 
+    const peopleOfAge = ofAge([
+    { name: "Angelina Jolie", age: 80 },
+    { name: "Eric Jones", age: 2 },
+    { name: "Paris Hilton", age: 5 },
+    { name: "Kayne West", age: 50 },
+    { name: "Bob Ziroll", age: 100 }
+])
+
 
   return (
     <div className="App">
@@ -37,6 +45,7 @@ function App() {
         <p>{evensOnly([3, 6, 8, 2])}ß</p>
         <p>{fiveCharactersOrFewerOnly(["dog", "wolf", "by", "family", "eaten", "camping"])}</p>
         <div>{people.map(x=><p>{x.name}</p>)}</div>
+        <ul>{peopleOfAge.map( x => <li>{x.name}</li>)}</ul>
     </div>
   );
 }
