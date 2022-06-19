@@ -36,7 +36,7 @@ function App() {
         <p>{fiveAndGreaterOnly([3, 6, 8, 2])}</p>
         <p>{evensOnly([3, 6, 8, 2])}ß</p>
         <p>{fiveCharactersOrFewerOnly(["dog", "wolf", "by", "family", "eaten", "camping"])}</p>
-        <p>{people.map(x=><p>{x.name}</p>)}</p>
+        <div>{people.map(x=><p>{x.name}</p>)}</div>
     </div>
   );
 }
