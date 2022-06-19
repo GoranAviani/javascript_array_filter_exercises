@@ -3,6 +3,7 @@ import fiveAndGreaterOnly from "./components/fiveAndGreaterOnly";
 import evensOnly from "./components/evensOnly";
 import fiveCharactersOrFewerOnly from "./components/fiveCharactersOrFewerOnly";
 import peopleWhoBelongToTheMovieClub from "./components/peopleWhoBelongToTheMovieClub";
+import ofAge from "./components/ofAge";
 
 function App() {
     console.log(fiveAndGreaterOnly([3, 6, 8, 2])); /// [6, 8]
